@@ -1,0 +1,23 @@
+Install prerequisites
+    Make sure you have installed:
+    Node.js (v16 or later is fine)
+    npm (comes with Node.js)
+    MongoDB (running locally on mongodb://localhost:27017)
+
+setup project
+    npm install
+
+Start MongoDB
+    If you have MongoDB installed locally, start it with:
+    mongod
+
+Run the server
+    Since your main file is index.js, start the app with:
+    node index.js
+
+    or, if you want auto-reload on file changes:
+    npx nodemon index.js
+
+Access the app
+    Open your browser and go to:
+    👉 http://localhost:5000
